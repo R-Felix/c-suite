@@ -1,0 +1,8 @@
+{
+  "name": "c-suite",
+  "version": "0.1.0",
+  "description": "Run any project like a well-managed company: you are the principal (CEO), Claude is the orchestrator (COO) of role-based agents with the right model and effort for each task. Charter, task cards, evidence-based acceptance, day and night decision rules, a cost ledger and a learning loop.",
+  "author": { "name": "Félix Richard" },
+  "license": "MIT",
+  "keywords": ["orchestration", "project-management", "subagents", "planning", "delegation", "cost", "retrospective"]
+}
