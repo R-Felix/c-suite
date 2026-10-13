@@ -85,5 +85,5 @@ approval). Never at night, never for progress.
 1. Every card is accepted, or abandoned with its reason; the milestone's "done when" is checked with evidence.
 2. Roadmap: `done` and dates. `status.md` updated. Progress: `finished: true`.
 3. Report in at most 15 lines: what was delivered and where to look; what was verified; the cost (estimate and
-   actual); the decisions table; what comes next.
+   actual); the decisions table; what comes next. End with the closing block (operating model §6).
 4. Commit the ops files. Run `retrospective`, or offer it if the principal wants to look at the result first.

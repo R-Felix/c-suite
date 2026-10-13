@@ -23,4 +23,4 @@ folder named by `C_SUITE_HOME`, otherwise in `~/.claude/c-suite/`; else the conv
    `<ops>/decisions/D<n>-<slug>.md`, plus a row in the "For the principal" section of `decisions.md`. Otherwise, in
    the conversation, or in a file if asked.
 6. **Present** in at most 12 lines: the question, the recommendation, the condensed comparison and the stake. The
-   principal decides; log the decision.
+   principal decides; log the decision. End with the closing block (operating model §6).

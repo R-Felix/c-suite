@@ -52,7 +52,7 @@ Give the end time as a clock time.
 ## 4. Present
 
 At most 15 lines: the plan table, the estimate and end time, and the decisions for the principal (numbered,
-recommendation, concrete stake). In day mode, ask before running if the plan crosses a one-way door or departs from
+recommendation, concrete stake), as the closing block (operating model §6). In day mode, ask before running if the plan crosses a one-way door or departs from
 the roadmap; otherwise proceed. In night mode, proceed with what is not blocked.
 
 Unless the principal asked to stop at the plan, continue with `run-milestone`.

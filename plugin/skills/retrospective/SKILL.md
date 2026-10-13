@@ -27,4 +27,5 @@ named in the project's `CLAUDE.md`, `ops/` by default. Blameless: look for cause
    project and milestone it comes from.
 6. **Write** `<ops>/retros/M<n>.md` from `PLAYBOOK/templates/project/retro.md` (one page, in the principal's
    language) and commit it.
-7. **Report** in at most ten lines, with the house promotions to approve as numbered decisions.
+7. **Report** in at most ten lines, with the house promotions to approve as numbered decisions, in the closing block
+   (operating model §6).

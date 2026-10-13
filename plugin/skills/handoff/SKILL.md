@@ -19,7 +19,8 @@ The ops folder is named in the project's `CLAUDE.md` (`Operating files:`), `ops/
    abc123'").
 3. Commit unfinished work on its own branch (a temporary commit, never a stash), and commit the ops files. Never push
    unless the project's rules say so.
-4. Tell the principal in at most five lines: where things stand, and how to resume: in a new conversation in this
+4. Tell the principal in a few lines, ending with the closing block (operating model §6): where things stand,
+   and how to resume: in a new conversation in this
    folder, "resume" (or `/c-suite:handoff resume`).
 
 ## Resume
