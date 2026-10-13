@@ -8,6 +8,8 @@ CLAUDE.md, so keep it under 30 lines). Edit freely. -->
 - **Agent reports in:** {{agent_language}} <!-- "same" or "English" (English costs fewer tokens) -->
 - **Time zone and working hours:** {{timezone}}, {{working_hours}} <!-- e.g. America/Toronto, 07:00-22:00, Mon-Sun -->
 - **Phone notifications:** {{notifications}} <!-- e.g. "day only, when I must act" -->
+- **Message layout:** {{layout}} <!-- default: the closing block (operating model §6): State, Decisions I took, Your
+  actions, at the end of every progress message -->
 - **Decision format:** numbered table, recommendation, one sentence of concrete stake, no jargon; answers in bulk.
 - **Stop and ask only for:** one-way doors (operating model §3){{extra_stops}}.
 - **Budget sensitivity:** {{budget}} <!-- e.g. "subscription Max; usage limits hit twice in October: be frugal" -->

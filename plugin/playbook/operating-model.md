@@ -121,7 +121,12 @@ Tokens and the principal's usage limits are a budget like any other. The levers,
 ## 6. Communication with the principal
 
 - Always in the principal's language (profile). Documents in the ops folder too; file names stay in English.
-- Lead with what matters; short reports; numbered decisions with a recommendation and a concrete stake.
+- Short reports; numbered decisions with a recommendation and a concrete stake.
+- **The closing block.** Every message that reports progress ends with three tables, in this order, so the principal
+  finds what matters without reading the rest: **State** (each workstream and where it stands), **Decisions I took**
+  (number, decision, how to reverse it: "say '3 no'"), and last **Your actions** (letter, action, my recommendation,
+  the time it takes; commands in copyable blocks right below). Omit an empty table. Nothing important lives only in
+  the prose above. The principal's profile may set another layout.
 - Separate **verified** (and where) from **inferred** (and why). Propose the cheap test that would settle a doubt.
 - Before a long step, announce when it will end (clock time, not just a duration).
 - Keep everything in one thread: related work found along the way goes to an agent in this session, not to a separate

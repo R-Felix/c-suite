@@ -74,7 +74,7 @@ Never push.
 ## 4. Present and hand over
 
 In at most 20 lines: the outcome in two lines, the success measures, the roadmap table, the three main pre-mortem
-risks, and the decisions table. **Ask the principal to approve the charter**: it is their document (a one-way door).
+risks, and the decisions table, ending with the closing block (operating model §6). **Ask the principal to approve the charter**: it is their document (a one-way door).
 Log the approval in `decisions.md`.
 
 Next step: `plan-milestone` for M1. If the principal already said to go ahead, continue with it directly.
