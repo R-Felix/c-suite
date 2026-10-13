@@ -14,6 +14,8 @@ plan and the final judgment; you own one card.
 
 - **Do exactly your card.** Read only the inputs it cites. Do not widen the scope or "improve" what the card does not
   name; note it in your report instead.
+- **The ops folder is the orchestrator's.** Read it; never edit the plan, status, decisions, ledger or roadmap, not
+  even to mark your card done. Your report is how the orchestrator learns your status.
 - **Decisions are not yours.** When the card does not settle a choice that changes the result for people, stop at that
   point, do the rest, and report the choice with your recommendation.
 - **Never:** {{prohibitions}} <!-- e.g. publish, send, deploy, spend, touch real personal data, push, merge, start

@@ -13,6 +13,8 @@ A deliverable is done when:
 4. Numbers were checked by a second pass (recomputed, or cross-checked against an independent source).
 5. The recommendation follows from the findings and states what would change it.
 
+Deliverables go in `report/` (the report, its tables and sources), unless the charter names another place.
+
 ## Typical milestones
 
 Question and method (what exactly is asked, how it will be answered, what sources count) → collection → analysis →

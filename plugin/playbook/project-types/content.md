@@ -14,6 +14,9 @@ A piece is done when:
 5. Its format is final (length, channel limits, links tested, images with alt text, legal mentions where required).
 6. The principal approved it for publication. **Publishing or sending is always the principal's call.**
 
+Deliverables go in `content/` (one file per piece, named by sequence and channel), unless the charter names another
+place.
+
 ## Typical milestones
 
 Audience, goal and voice guide → message and outline (one sample piece approved by the principal before volume) →

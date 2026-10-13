@@ -22,7 +22,7 @@ do not give, in a few lines. "Read only these." -->
 
 ## Outputs
 
-<!-- Each deliverable: where, in what format, what it contains. -->
+<!-- Each deliverable: where (outside the ops folder), in what format, what it contains. -->
 
 ## Acceptance criteria
 
