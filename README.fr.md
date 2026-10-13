@@ -32,7 +32,7 @@ et t'accueille au matin avec la liste numérotée des décisions à confirmer ou
 ## Installer
 
 ```bash
-claude plugin marketplace add OWNER/c-suite
+claude plugin marketplace add R-Felix/c-suite
 claude plugin install c-suite@c-suite
 ```
 

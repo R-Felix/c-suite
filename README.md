@@ -59,7 +59,7 @@ responsible owner per task), Netflix (context, not control), Google (blameless p
 ## Install
 
 ```bash
-claude plugin marketplace add OWNER/c-suite
+claude plugin marketplace add R-Felix/c-suite
 claude plugin install c-suite@c-suite
 ```
 

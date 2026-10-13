@@ -1,7 +1,12 @@
 {
   "name": "c-suite",
-  "owner": { "name": "Félix Richard" },
-  "metadata": { "description": "c-suite: an operating model for running projects with Claude as your COO." },
+  "owner": {
+    "name": "Félix Richard",
+    "url": "https://github.com/R-Felix"
+  },
+  "metadata": {
+    "description": "c-suite: an operating model for running projects with Claude as your COO."
+  },
   "plugins": [
     {
       "name": "c-suite",
