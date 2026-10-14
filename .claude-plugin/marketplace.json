@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "c-suite",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "source": "./plugin",
       "description": "You are the principal (CEO), Claude is the orchestrator (COO) of role-based agents: charter, task cards, model and effort routing, evidence-based acceptance, day/night decisions, cost ledger, retrospectives."
     }
