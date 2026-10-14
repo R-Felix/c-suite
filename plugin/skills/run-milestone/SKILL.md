@@ -27,8 +27,9 @@ throughout: read it once per session if you have not.
 
 Repeat until no card is ready:
 
-**a. Pick.** Ready cards are those whose dependencies are accepted and that are not blocked. At most two at a time,
-never two that write the same files or hold the same shared resource.
+**a. Pick.** Ready cards are those whose dependencies are accepted and that are not blocked. At most two at a time
+(one in night mode), never two that write the same files or hold the same shared resource. Workers do not run the
+full verification: you run it once, at integration (operating model, §5).
 
 **b. Launch.** Agent tool:
 - `subagent_type`: `c-suite:<role>` (if the list shows it without the prefix, the bare `<role>`; if it shows neither,

@@ -22,6 +22,12 @@ plan and the final judgment; you own one card.
   another conversation or background task, type a password. -->
 - **Your files** (scratch, logs) go in a folder named after your card, never at the root of a shared temp folder.
   Touch nothing that belongs to another agent.
+- **Verify what you touched, not everything:** run the checks that cover your change (its tests, types, lint). Do not
+  run the project's full verification or release gate unless your card says so: the orchestrator runs it once at
+  integration.
+- **Stop instead of looping:** after two failures of the same kind (a check, a timeout, a slow gate), stop and report
+  where you are; after twice your card's estimated duration, the same. A third try is the orchestrator's call.
+- **Evidence in proportion:** screenshots only when your card asks for them or the change is visual, one per point.
 - **Integrity:** never weaken a check to pass (skipped hooks, lowered thresholds, deleted tests, longer timeouts).
   Never claim a check that did not run.
 - **Progress:** if a tool named `mcp__savvy-progress__step` exists (load it with ToolSearch if deferred), call it right

@@ -80,7 +80,9 @@ cannot see the conversation: the card and the agent frame are their whole world.
 your card", plus at most a few lines of live context; it never pastes them.
 
 **Size.** One owner, one outcome, about an hour of work. Sizes start at S (≤ 60k tokens of agent context) and M
-(≤ 150k); anything larger is split. Retros recalibrate these numbers from the ledger.
+(≤ 150k); anything larger is split. A card is also time-boxed: an agent past twice its estimated duration stops
+and reports where it is, rather than pressing on (cost grows faster than work, since every turn re-reads the whole
+history). Retros recalibrate these numbers from the ledger.
 
 **Routing.** The card's role sets model and effort (see `routing.md`): scout, builder, specialist, architect,
 reviewer, expert. Pick the cheapest role that gets the task right the first time; judge cost per *accepted* task,
@@ -88,7 +90,8 @@ not per call.
 
 **Parallelism.** One or two agents at a time, never more: more agents mean more orchestration overhead, more
 conflicts, and contention for shared resources (a test bench, a database, a browser). A project may declare a shared
-resource lock in its frame.
+resource lock in its frame. In night mode, one agent at a time: nobody is there to untangle collisions, and a
+contended machine turns into retries.
 
 **Acceptance is by evidence.** An agent's report is a claim. Check each acceptance criterion against its evidence;
 re-run cheap verifications yourself; read the actual output for anything risky. Then: **accept**, **return** (a
@@ -116,6 +119,16 @@ Tokens and the principal's usage limits are a budget like any other. The levers,
 8. Reports of at most 15 lines; the orchestrator does not re-read large files it does not need.
 9. The orchestrator is sober: one message to the principal when something happens, not one per event; a new
    session at each big chapter (via `handoff`).
+10. Workers run only the checks for what they touched; the full verification (the release gate) runs once, by the
+    orchestrator, at integration. A worker that runs it duplicates the most expensive step of the project.
+11. Two failures of the same kind stop the loop: the agent reports instead of retrying a third time (a flaky gate, a
+    slow machine, the same failing test).
+12. Visual evidence (screenshots, recordings) only when the principal must see something or the card is visual; one
+    capture per question, not every theme and size by default.
+
+Lesson behind 10 to 12 (first pilot, 2026-10-14): one night of three agents cost about 1.5 M tokens. One agent ran
+3.6 hours instead of one; each agent replayed the full verification the orchestrator replays anyway; one agent retried
+a slow commit gate five times.
 10. Every task's cost goes to `ledger.csv`; the retrospective turns the ledger into better routing.
 
 ## 6. Communication with the principal
